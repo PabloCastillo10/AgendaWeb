@@ -1,0 +1,45 @@
+body {
+    background-color: #000; 
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  .table-container {
+    margin: 3rem auto;
+    max-width: 900px;
+    border: 1px solid #0d6efd; 
+    border-radius: 8px;
+    background-color: #1a1a1a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  }
+  .table {
+    margin-bottom: 0;
+    border-collapse: collapse;
+  }
+  .table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  .table thead {
+    background-color: #0d6efd; 
+    color: white;
+  }
+  .table tbody tr:hover {
+    background-color: #0d6efd; 
+    color: white;
+  }
+  .btn-agregar {
+    display: block;
+    width: fit-content;
+    margin: 1.5rem auto;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    background-color: #0d6efd;
+    color: white;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+  }
+  .btn-agregar:hover {
+    background-color: #084298; 
+    color: white;
+  }

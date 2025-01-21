@@ -59,9 +59,6 @@ h2 {
   color: white;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
-
-
-
 @media (max-width: 576px) {
   h2 {
     font-size: 2rem;
@@ -70,4 +67,21 @@ h2 {
     width: 100%;
     margin-bottom: 10px;
   }
+}
+a.text-dark {
+  color: white; 
+  text-decoration: none;
+}
+
+a.text-dark:hover {
+  color: #ff5733;
+  text-decoration: underline; 
+  font-weight: bold; 
+  transition: color 0.3s ease, font-weight 0.3s ease;
+}
+
+
+.table-hover tbody tr:hover {
+  background-color: rgba(255, 140, 0, 0.2); 
+  transition: background-color 0.3s ease-in-out;
 }
